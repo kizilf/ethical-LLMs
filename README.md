@@ -15,10 +15,14 @@ We utilized another LLM model (another ChatGPT instance in this case) to act as 
 ## Folder Structure:
  - ***presentation:*** Contains the deliverables such as report, midterm presentation and poster presentation.
  - ***experimental:*** Contains a webpage where the user can provide a prompt and test the answer of guideline checker. Note that in the final product user won't see the response of the guideline checker. Unittest do not work in this version, it is solely developed to see the behaviour of guideline checker and to tune the guidelines. **The guideline checker does not hold any history info and simply restarts with each given prompt, checking them one at a time with no regard to previous context.**
+
 ![Experimental Page](https://i.ibb.co/Nt8zw8v/experimental.png "Experiment with Guidelines")
+
 - ***funny_screenshots:*** Compilation of funny responses from LLMs that we gathered througout our research.
 - ***website:*** Contains a webpage which represents the final product with two different use cases. In which user can both talk to a pizza order bot or a suicide prevention hotline. The user will only see the result of the pipeline. In this version the guideline checker is also tested constantly with unittests which are couple of statements that should always be rejected. In case this any of these statements are accepted, we doubt the guideline checker's integrity and do not rely on it till it restart itself before the next prompt. 
+
 ![Pizzabot](https://i.ibb.co/XFVR2RG/chatteroni.png "Chatteroni")
+
 ![Suicide Prevention](https://i.ibb.co/BqSVRBr/image-2023-08-09-210936783.png "Guardian Angel")
 
 <hr>
