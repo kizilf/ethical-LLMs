@@ -75,6 +75,11 @@ pip install -r requirements.txt
 
 <i>Please note that you have to have an OpenAI API key to use the demo. Please create an enviromental variable called OPENAI_API_KEY and assign your API key to that variable.</i>
 
+<hr>
 
+# Authors
+- Pedram Fardzadeh - pedrochris@protonmail.com
+- Ahmed Abdelghany Mady - ahmad.abdelghanyy@gmail.com
+- Furkan Kiziltan - kiziltan.furkan@gmail.com
 
 
