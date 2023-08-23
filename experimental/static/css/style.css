@@ -1,0 +1,90 @@
+html,body { height:100%; }
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  color: #444;
+}
+
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.response {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+  font-weight: 600;
+}
+
+p {
+  white-space: pre-wrap;
+  color: #666;
+}
+
+#freegpt-response {
+  background-color: #d4edda;
+  padding: 10px;
+}
+
+#safegpt-response {
+  background-color: #cce5ff;
+  padding: 10px;
+}
+
+.response-divider {
+  border-left: 1px solid #ccc;
+}
+
+.jumbotron {
+  padding-bottom: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+	background: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+}
+.card{
+	border: none;
+	border-radius: 15px;
+}
+.adiv{
+	background: #04CB28;
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	font-size: 12px;
+	height: 46px;
+}
+.chat{
+	border: none;
+	background: #E2FFE8;
+	border-radius: 20px;
+}
+.bg-white{
+	border: 1px solid #E7E7E9;
+	border-radius: 20px;
+}
+.form-control{
+	border-radius: 12px;
+	border: 1px solid #F0F0F0;
+}
+.form-control:focus{
+	box-shadow: none;
+}
